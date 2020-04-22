@@ -2,6 +2,8 @@ FROM python:3
 
 COPY requirements.txt requirements.txt
 COPY webstreaming.py webstreaming.py
+COPY pyimagesearch/ pyimagesearch/
+COPY templates/ templates
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt

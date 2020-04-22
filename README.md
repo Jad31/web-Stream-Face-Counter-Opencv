@@ -14,4 +14,4 @@ Simple program using opencv to stream video from a webcam to a web browser/HTML 
 
 ### Run
 
-    docker run --rm videostream
+    docker run --rm --device /dev/video0 videostream
